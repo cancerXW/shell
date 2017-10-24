@@ -1,5 +1,5 @@
 #!/bin/bash
-# one key decompression
+# one key decompression , support type tar tar.bz2 tar.gz zip 
 # 一键解压，无须判断类型 现在支持类型有 tar tar.bz2 tar.gz zip
 for i in $@
 do

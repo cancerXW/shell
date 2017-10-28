@@ -18,6 +18,7 @@ do
   ;;
   *)
     echo "Do not support type" >&2
+    exit 2
   esac
 done
 

@@ -16,9 +16,8 @@ do
   "Zip archive data")
     unzip $i
   ;; 
-  "XZ compressed data")
-      xz $i
-      tar xvf $i
+  "XZ compressed data")      
+      tar Jxvf $i
   ;;  
   *)
     echo "Do not support type" >&2
